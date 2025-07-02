@@ -87,10 +87,10 @@ public class ProductTest extends BaseTestProduct{
 		productPage.btn_sair.click();
 		
 		
-		WebDriverWait wait = new WebDriverWait(driver, 5);
-		WebElement elemento = wait.until(ExpectedConditions.presenceOfElementLocated(By.id("btn_editar")));
+		WebDriverWait aguardo = new WebDriverWait(driver, 5);
+		WebElement linkEditar = aguardo.until(ExpectedConditions.presenceOfElementLocated(By.id("btn_editar")));
 		
-		String tituloBtnEditar = elemento.getText();
+		String tituloBtnEditar = linkEditar.getText();
 		assertEquals(tituloBtnEditar, "Editar");
 		
 	}

@@ -9,7 +9,7 @@ public class BaseTestProduct {
 
 	
 	protected static WebDriver driver;
-	private static final String URL_BASE = "C:\\temp\\ws-eclipse\\selenium_lab_main\\sistema\\produtos.html";
+	private static final String URL_BASE = "C:\\Users\\36129382023.2n\\Desktop\\Java 2\\av2_testes_software\\sistema\\produtos.html";
 	private static final String PATH_DRIVE = "src/test/resources/chromedriver.exe";
 	
 	/**
